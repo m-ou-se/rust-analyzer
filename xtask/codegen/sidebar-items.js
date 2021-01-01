@@ -1,0 +1,1 @@
+initSidebarItems({"enum":[["Mode",""]],"fn":[["generate_assists_docs",""],["generate_assists_tests",""],["generate_diagnostic_docs",""],["generate_feature_docs",""],["generate_lint_completions",""],["generate_parser_tests",""],["generate_syntax",""]],"struct":[["CodegenCmd",""]]});

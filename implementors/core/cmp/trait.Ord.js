@@ -1,0 +1,16 @@
+(function() {var implementors = {};
+implementors["arena"] = [{"text":"impl&lt;ID:&nbsp;Ord, V:&nbsp;Ord&gt; Ord for ArenaMap&lt;ID, V&gt;","synthetic":false,"types":[]},{"text":"impl Ord for RawId","synthetic":false,"types":[]}];
+implementors["base_db"] = [{"text":"impl Ord for SourceRootId","synthetic":false,"types":[]},{"text":"impl Ord for CrateId","synthetic":false,"types":[]}];
+implementors["cfg"] = [{"text":"impl Ord for CfgAtom","synthetic":false,"types":[]}];
+implementors["completion"] = [{"text":"impl Ord for CompletionScore","synthetic":false,"types":[]}];
+implementors["hir_def"] = [{"text":"impl Ord for ModPath","synthetic":false,"types":[]},{"text":"impl Ord for PathKind","synthetic":false,"types":[]},{"text":"impl Ord for StructId","synthetic":false,"types":[]},{"text":"impl Ord for UnionId","synthetic":false,"types":[]},{"text":"impl Ord for EnumId","synthetic":false,"types":[]},{"text":"impl Ord for ImplId","synthetic":false,"types":[]},{"text":"impl Ord for AdtId","synthetic":false,"types":[]}];
+implementors["hir_expand"] = [{"text":"impl Ord for Name","synthetic":false,"types":[]}];
+implementors["hir_ty"] = [{"text":"impl Ord for InternedCallableDefId","synthetic":false,"types":[]}];
+implementors["ide"] = [{"text":"impl Ord for SymbolKind","synthetic":false,"types":[]},{"text":"impl Ord for Highlight","synthetic":false,"types":[]},{"text":"impl Ord for HighlightModifiers","synthetic":false,"types":[]},{"text":"impl Ord for HighlightTag","synthetic":false,"types":[]},{"text":"impl Ord for HighlightModifier","synthetic":false,"types":[]}];
+implementors["parser"] = [{"text":"impl Ord for SyntaxKind","synthetic":false,"types":[]}];
+implementors["paths"] = [{"text":"impl Ord for AbsPathBuf","synthetic":false,"types":[]},{"text":"impl Ord for AbsPath","synthetic":false,"types":[]},{"text":"impl Ord for RelPathBuf","synthetic":false,"types":[]},{"text":"impl Ord for RelPath","synthetic":false,"types":[]}];
+implementors["profile"] = [{"text":"impl Ord for Bytes","synthetic":false,"types":[]}];
+implementors["project_model"] = [{"text":"impl Ord for ProjectManifest","synthetic":false,"types":[]}];
+implementors["syntax"] = [{"text":"impl Ord for Token","synthetic":false,"types":[]}];
+implementors["vfs"] = [{"text":"impl Ord for VfsPath","synthetic":false,"types":[]},{"text":"impl Ord for FileId","synthetic":false,"types":[]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()
